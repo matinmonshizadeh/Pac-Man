@@ -1,5 +1,10 @@
 # Pac-Man
 
+- **Computer Graphics course project (Spring 2024)**
+- **Using OpenGL library**
+
+## Difficulty Selection
+
 ![image](https://github.com/user-attachments/assets/44ea84dd-5e7d-4167-8de3-2d04fde1bae1)
 
 ![image](https://github.com/user-attachments/assets/1d4338b3-ffb2-4359-a0d6-8525960491be)
@@ -21,5 +26,4 @@
 ![Lose](https://github.com/user-attachments/assets/c353f62c-9c8c-445f-ba66-07b1abeb49b1)
 
 
-![image](https://github.com/user-attachments/assets/6faeaea1-046d-4786-90e7-d9a8e61f6583)
 
