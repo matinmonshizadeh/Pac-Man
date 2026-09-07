@@ -61,6 +61,12 @@ class PacMan:
         row, col = cell_at(self.x, self.y)
         return row, col % GRID_SIZE
 
+    def _neighbour_is_open(self, dx, dy):
+        # Pac-Man is smaller than a cell, so a single step can fit even when the
+        # cell in that direction is a wall. Turning requires an open neighbour.
+        row, col = self.cell()
+        return WALLS[row - dy][(col + dx) % GRID_SIZE] == 0
+
     def request_direction(self, direction):
         if self.moving:
             self.wanted_direction = direction
@@ -77,7 +83,7 @@ class PacMan:
         if self.wanted_direction is not None:
             x, y = snap_to_corridor(self.x, self.y, self.wanted_direction)
             dx, dy = DIRECTION_VECTORS[self.wanted_direction]
-            if is_move_valid(x + dx * step, y + dy * step, PACMAN_RADIUS):
+            if self._neighbour_is_open(dx, dy) and is_move_valid(x + dx * step, y + dy * step, PACMAN_RADIUS):
                 self.x, self.y = x, y
                 self.direction = self.wanted_direction
                 self.wanted_direction = None

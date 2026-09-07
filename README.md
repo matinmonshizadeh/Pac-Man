@@ -8,6 +8,10 @@ A Pac-Man clone written from scratch in Python with PyOpenGL and GLFW.
 | :---: | :---: | :---: |
 | ![Difficulty screen](docs/difficulty.png) | ![Gameplay](docs/gameplay.png) | ![Power mode: ghosts turn blue](docs/power-mode.png) |
 
+| Win screen | Lose screen |
+| :---: | :---: |
+| ![Win screen](docs/win.png) | ![Lose screen](docs/lose.png) |
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Overview
