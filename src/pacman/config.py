@@ -14,7 +14,7 @@ DIFFICULTY_TITLE = "Press a key to select difficulty (Easy: 1, Normal: 2, Hard: 
 # Speeds are in clip-space units per second and scaled by the frame delta
 # time, so the game plays the same at any frame rate.
 PACMAN_START = (0.0, -0.68)
-PACMAN_SPEED = 0.6
+PACMAN_SPEED = 0.35
 PACMAN_RADIUS = 0.025
 MOUTH_INTERVAL = 0.1  # Seconds between mouth open/close toggles while moving
 
