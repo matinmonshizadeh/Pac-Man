@@ -2,7 +2,9 @@
 
 A Pac-Man clone written from scratch in Python with PyOpenGL and GLFW.
 
-![Gameplay demo](docs/demo.gif)
+<p align="center">
+  <img src="docs/demo.gif" alt="Gameplay demo" width="480">
+</p>
 
 | Difficulty screen | Gameplay | Power mode |
 | :---: | :---: | :---: |
