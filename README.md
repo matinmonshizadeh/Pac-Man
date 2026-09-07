@@ -3,7 +3,7 @@
 A Pac-Man clone written from scratch in Python with PyOpenGL and GLFW.
 
 <p align="center">
-  <img src="docs/demo.gif" alt="Gameplay demo" width="480">
+  <img src="docs/demo.gif" alt="Gameplay demo" width="360">
 </p>
 
 | Difficulty screen | Gameplay | Power mode |
@@ -80,8 +80,8 @@ Prerequisites: Python 3.9 or newer and a GPU driver with OpenGL support
 (any desktop machine from the last fifteen years qualifies).
 
 ```bash
-git clone https://github.com/matinmonshizadeh/Pac-Man.git
-cd Pac-Man
+git clone https://github.com/matinmonshizadeh/pac-man.git
+cd pac-man
 python -m venv .venv
 .venv\Scripts\activate        # Windows; on macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
@@ -91,7 +91,7 @@ python main.py
 ## Project structure
 
 ```
-Pac-Man/
+pac-man/
 ├── main.py              # Launcher: python main.py
 ├── src/pacman/
 │   ├── config.py        # Constants, maze and pellet grids, colours, pixel-art screens
